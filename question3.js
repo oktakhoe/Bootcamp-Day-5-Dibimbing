@@ -11,10 +11,7 @@
 numbers = [1,2,3,4,5]
 
 function filterEvenNumbers(numbers) {
-  let evenNumbers = [];
-  
   console.log(numbers.filter(x => x % 2 === 0))
-  return evenNumbers;
 }
 
 filterEvenNumbers(numbers)
