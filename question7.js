@@ -11,11 +11,8 @@
 words = ["apple", "banana", "avocado"];
 
 function filterStringsStartingWithA(strings) {
-  let filteredStrings = [];
-
-  const startWithA = words.filter((words) => words.startsWith("a"));
+  const startWithA = strings.filter((str) => str.startsWith("a"));
   console.log(startWithA);
-  return filteredStrings;
 }
 
 filterStringsStartingWithA(words);
