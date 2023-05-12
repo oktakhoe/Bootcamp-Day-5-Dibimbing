@@ -11,10 +11,7 @@
 numbers = [1, 2, 3, 4, 5];
 
 function findLargestNumber(numbers) {
-  let largestNumber = 0;
-
   console.log(Math.max.apply(null,numbers));
-  return largestNumber;
 }
 
 findLargestNumber(numbers);
