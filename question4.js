@@ -11,10 +11,7 @@
 words = ["hello", "world"];
 
 function getLengthsOfStrings(strings) {
-  let lengths = [];
-
-  console.log([words[0].length, words[1].length]);
-  return lengths;
+  console.log(strings.map((str) => str.length));
 }
 
 getLengthsOfStrings(words);
