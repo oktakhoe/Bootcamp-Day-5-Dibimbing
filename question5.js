@@ -11,10 +11,7 @@
 numbers = [1,2,3,4,5]
 
 function reverseArray(numbers) {
-  let reversedNumbers = [];
-  
   console.log(numbers.reverse())
-  return reversedNumbers;
 }
 
 reverseArray(numbers)
