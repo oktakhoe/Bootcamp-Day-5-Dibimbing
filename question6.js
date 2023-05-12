@@ -11,11 +11,8 @@
 numbers = [1,2,3,4,5]
 
 function findSecondSmallestNumber(numbers) {
-  let secondSmallestNumber = 0;
-  
   const secondMin = numbers.sort((a,b) => a-b) [1]
   console.log(secondMin)
-  return secondSmallestNumber;
 }
 
 findSecondSmallestNumber(numbers)
